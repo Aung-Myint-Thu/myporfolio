@@ -1,0 +1,61 @@
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+.py-60{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.btn{
+    background-color: var(--brand-color);
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+.btn2{
+    background-color: var(--brand-color);
+    width: 10rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+.btn3{
+    background-color: var(--brand-color);
+    width: 50rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    margin-left: 4rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.btn3:hover{
+    background-color: #fff;
+    color: #000;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+
+

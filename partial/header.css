@@ -1,0 +1,113 @@
+header {
+    background-color: #808080;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 12;
+}
+.nav {
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo h1 {
+    color: var(--brand-color);
+    border: 1px solid var(--brand-color);
+}
+nav ul  {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    font-size: var(--primary-font-size);
+}
+nav ul li a:hover{
+    background-color: var(--brand-color);
+    color: #fff;
+    border-radius: 5rem;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+}
+div img{
+    display: flex;
+    width:30rem;
+    height: 30rem;
+    object-fit: cover;
+    border-radius:50%;
+    border: 7px solid var(--brand-color);
+    margin-left: 10rem;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+
+.text {
+
+    display: flex;
+    flex-direction: column;
+
+}
+.hello {
+    font-size: 4.5rem;
+    color: var(--brand-color);
+}
+.key{
+    display: inline-flex;
+}
+.frames {
+    font-size: 4rem;
+    color: #fff;
+}
+.name {
+    padding-left: 1.5rem;
+    height:50px;
+    line-height:45px;
+    overflow: hidden;  
+}
+.name li {
+    color: var(--brand-color);
+    font-size: 4rem;
+    position: relative;
+    top:0;
+    animation: move 6s steps(4) infinite;
+}
+@keyframes move {
+    100%{
+        top: -180px;
+    }
+}
+.name li span {
+    position: relative;
+}
+.name li span::after {
+    content: '';
+    position: absolute;
+    left:0;
+    background-color: #333;
+    width: 100%;
+    height: 100%;
+    border-left: 2px solid firebrick;
+    animation: typing 1.5s steps(10) infinite;
+}
+@keyframes typing {
+    100%{
+        left: 100%;
+        margin: 0 -3.5rem 0 3.5rem;
+    }
+}
+.paragraph{
+    margin-top: 1.5rem;
+}
+ .paragraph p { 
+    width: 40rem; 
+    height: 6rem; 
+     border: 1px none;
+     color: #d6c7c7;
+} 

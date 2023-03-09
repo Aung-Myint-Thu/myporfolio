@@ -1,0 +1,188 @@
+.portfolio .visit h1 {
+    text-align: center;
+    color: #d6c7c7;
+    font-size: var(--primary-font-size); 
+}
+.portfolio{
+    padding: 2rem;
+    border-bottom:  1px solid black;
+    
+}
+.portfolio .visit h3 {
+    text-align: center;
+    color: var(--brand-color);
+    font-size: var(--secondary-font-size); 
+}
+.folio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+.car{
+    width: 40rem;
+    height: 40rem;
+    border: 1px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+    border-radius: 3rem;
+}
+.car .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.car .heart{
+   border: unset;
+   border-radius: unset;
+   box-shadow: unset;
+   width: 2rem;
+   height: 2rem;
+   margin-left: 28rem;
+}
+.wedsite{
+    display: flex;
+    margin:0.5rem;
+    color: #d6c7c7;
+}
+.wedsite .number{
+    margin-left: 0.4rem;
+}
+.room h1{
+    font-size: var(--primary-font-size);
+    color: #d6c7c7;
+    margin-left: 0.5rem;
+}
+.room p{
+    font-size:1rem;
+    color: #d6c7c7;
+    margin-left: 0.5rem;
+}
+.motor{
+        width: 40rem;
+        height: 40rem;
+        border: 1px;
+        box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+        border-radius: 3rem;
+        margin-top: 3rem;
+}
+.motor .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.motor .heart{
+    border: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 28rem;
+ }
+ .education{
+    width: 40rem;
+    height: 40rem;
+    border: 1px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+    border-radius: 3rem;
+}
+.education .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.education .heart{
+    border: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 28rem;
+ }
+ .banking{
+    width: 40rem;
+    height: 40rem;
+    border: 1px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+.banking .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.banking .heart{
+    border: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 28rem;
+ }
+ .movie{
+    width: 40rem;
+    height: 40rem;
+    border: 1px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+    border-radius: 3rem;
+}
+.movie .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.movie .heart{
+    border: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 28rem;
+ }
+ .food{
+    width: 40rem;
+    height: 40rem;
+    border: 1px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+    border-radius: 3rem;
+    margin-top: 3rem;
+}
+.food .showroom{
+    border:unset;
+    border-radius: 3rem;
+    box-shadow: unset;
+    width: 39.8rem;
+    height: 25rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.food .heart{
+    border: unset;
+    border-radius: unset;
+    box-shadow: unset;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 28rem;
+ }
+

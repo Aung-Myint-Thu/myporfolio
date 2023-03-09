@@ -1,0 +1,273 @@
+
+.about{
+    display: flex;
+    flex-direction: row;
+
+}
+.me{
+     border-bottom: 1px solid black; 
+     padding-bottom: 40px;
+}
+
+.about1{
+    font-size: var(--primary-font-size);
+    text-align: center;
+    color: var(--brand-color);
+}
+.img1{
+    width: 20rem;
+    height: 20rem;
+    border: 1px none;
+    margin-left: 10rem;
+    border: 1px solid var(--brand-color);
+    object-fit: cover;
+    border-radius: 33px;
+    box-shadow:  10px 10px 7px rgba(0,0,0,.5);    
+    margin-top: 3rem;      
+}
+.text1{
+    font-size: var(--secondary-font-size);
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+.text1 p {
+    widtH: 59rem;
+    height: 12rem;
+    color: #d6c7c7;
+}
+.text1 ul {
+    color: #d6c7c7;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-left: 15px;
+    transform: skewx(7deg);
+}
+.btn1{
+    background-color: var(--brand-color);
+    width: 13rem;
+    height: 3.5rem;
+    border: none;
+    border-radius: 5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    margin-left: 450px; 
+    margin-bottom: 2.5rem;
+
+}
+.btn1:hover{
+    background-color: #000;
+    color: #fff;
+    box-shadow: 10px 10px 5px rgba(0,0,0,.5);
+}
+.skill h1 {
+    font-size: var(--primary-font-size);
+    color: var(--brand-color);
+    text-align: center;
+    margin-top: 4rem;
+}
+.skill h2{
+    font-size: var(--secondary-font-size);
+    color: #d6c7c7;
+    text-align: center;
+}
+.level{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.level .front h1{
+    font-size: 15px;
+    color: #d6c7c7;
+    text-align: left;
+    margin-top: 4rem;
+    margin-left: 10rem;
+}
+.level .front {
+    margin-left: 20rem;
+}
+.level .tran{
+    margin-right: 20rem;
+}
+.level .tran h1 {
+    font-size: 15px;
+    color: #d6c7c7;
+    text-align: right;
+    margin-top: 4rem;
+    margin-right: 10rem;
+}
+.level .tran{
+    margin-bottom: 20rem;
+}
+.progress h4{
+    margin-left:250px;
+    padding-top: 40px;
+}
+
+.html{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+.html h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 220px;
+}
+.Css{
+    display: flex;
+    flex-direction: row;
+     margin-top: 4rem; 
+}
+.Css h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 230px;
+}
+.Js{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+}
+.Js h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 195px;
+}
+.figma{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem; 
+}
+.figma h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 220px;
+}
+.ps{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem; 
+}
+.ps h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 195px;
+}
+.thai{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem; 
+}
+.thai h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 170px;
+}
+.myanmar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem; 
+}
+.myanmar h4{
+    font-size: 1rem;
+    color: #d6c7c7;
+    margin-left: 170px;
+}
+.person{
+    text-align: center;
+    margin-top: 4rem;
+}
+.person h1{
+    color: var(--brand-color);
+    font-size: var(--primary-font-size);
+
+}
+.person h3{
+    color: #d6c7c7;
+    font-size: var(--secondary-font-size);
+}
+.timeline img {
+    border:unset;
+    border-radius: unset;
+    box-shadow: unset;
+    background-color: #333;
+    width: 3rem;
+    height: 50rem;
+    margin: auto;
+}
+.language{
+    margin-left: 30rem;
+    position: relative;
+}
+.language h1{
+    font-size: var(--primary-font-size);
+    color: #d6c7c7;
+    position: absolute;
+    top: 7rem;
+}
+
+.language .school{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: 10rem;
+}
+.language .year{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: 12rem;
+}
+.timeline img{
+    height: 33rem;
+    margin-top: 6rem;    
+}
+.professional{
+    margin-left: 65rem;
+    position: relative;
+}
+.professional h1{
+    font-size: var(--primary-font-size);
+    color: #d6c7c7;
+    position: absolute;
+    top: -16rem;
+}
+.professional .school{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: -13rem;
+}
+.professional .year{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: -11rem;
+}
+.English{
+    margin-left: 30rem;
+    position: relative;
+}
+.English h1{
+    font-size: var(--primary-font-size);
+    color: #d6c7c7;
+    position: absolute;
+    top: -4rem;
+}
+
+.English .school{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: -1rem;
+}
+.English .year{
+    font-size: 10px;
+    color: #d6c7c7;
+    position: absolute;
+    top: 1rem;
+}
+
+

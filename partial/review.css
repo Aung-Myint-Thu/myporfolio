@@ -1,0 +1,43 @@
+.review h1{
+    font-size: var(--primary-font-size);
+    color: #dec7c7;
+    text-align: center;
+}
+.review{
+    border-bottom:  1px solid black;
+    padding: 2rem;
+    z-index: 8;
+}
+.review h2{
+    font-size: var(--secondary-font-size);
+    color: var(--brand-color);
+    text-align: center;
+}
+.carousel-item img{
+    margin-top: 4rem;
+    border: unset;
+    border-radius: 3rem;
+    box-shadow:  10px 10px 40px rgba(0,0,0,.5),
+                 -10px -10px 40px rgba(0,0,0,.5);
+    width: 30rem;
+    height: 30rem;
+    object-fit: cover;
+    position: relative;
+}
+.carousel-item h1{
+    font-size: var(--primary-font-size);
+    color: #dec7c7;
+    position: absolute;
+    top: 5rem;
+    left: 55rem;
+}
+.carousel-item p{
+    font-size: var(--secondary-font-size);
+    color: #dec7c7;
+    position: absolute;
+    width: 60rem;
+    top: 12rem;
+    left: 44rem;
+}
+
+
